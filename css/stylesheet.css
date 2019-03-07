@@ -1,0 +1,111 @@
+.tomato{
+  background-color:#eb2f06;
+}
+
+.livid{
+  background-color: #6a89cc;
+}
+
+.aurora{
+  background-color: #78e08f;
+}
+
+.yellow{
+  background-color: #f6b93b;
+}
+
+.teal{
+  background-color: #079992;
+}
+
+.carrot{
+  background-color:#e58e26;
+}
+
+.flesh{
+  background-color: #fad390;
+}
+
+.jalapeno{
+  background-color: #b71540;
+}
+
+.spray{
+  background-color:#82ccdd;
+}
+
+.dupain{
+  background-color: #60a3bc;
+}
+
+.waterfall{
+  background-color:#38ada9;
+}
+
+.paradise{
+  background-color: #b8e994;
+}
+
+.col{
+  min-height: 100px;
+  float: left;
+}
+
+.pageContainer{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.col12{
+  width: 100%;
+}
+
+.col11{
+width: 91.66%;
+}
+
+.col10{
+width: 83.33%;
+}
+
+.col9{
+width: 75%;
+}
+
+.col8{
+width: 66.66%;
+}
+
+.col7{
+width: 58.33%;
+}
+
+.col6{
+  width: 50%;
+}
+
+.col5{
+width: 41.66%;
+}
+
+.col4{
+width: 33.33%;
+}
+
+.col3{
+width: 25%;
+}
+
+.col2{
+width: 16.67%;
+}
+
+.col1{
+width: 8.33%;
+}
+
+.row:after{
+  clear:both;
+  display: block;
+  content: '';
+}
