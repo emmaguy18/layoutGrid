@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .tomato{
@@ -145,73 +146,56 @@ width: 8.33%;
   bottom: 10px;*/
 }
 
-.header{
-  width: 100%;
-  height: 30vh;
-}
 
-.logo{
-  width: 20%;
-  height: 10vh;
-  top: 100px;
-  left: 100px;
-}
 
-.nav{
-  width: 100%;
-  height: 10vh;
-}
+@media screen and (max-width:800px){
 
-.section1{
-  width: 20%;
-  height: 50vh;
-}
+  .colS12{
+    width: 100%;
+  }
 
-.box1{
-  width: 11%;
-  background-color: #009432;
-}
+  .colS11{
+  width: 91.66%;
+  }
 
-.box2{
-  width: 9%;
-  background-color: #006266;
-}
+  .colS10{
+  width: 83.33%;
+  }
 
-.box3{
-  width: 20%;
-  background-color: #ED4C67;
-}
+  .colS9{
+  width: 75%;
+  }
 
-.box4{
-  width: 10%;
-  background-color: #B53471;
-}
+  .colS8{
+  width: 66.66%;
+  }
 
-.box5{
-  width: 10%;
-  background-color: #833471;
-}
+  .colS7{
+  width: 58.33%;
+  }
 
-.box6{
-  width: 15%;
-  background-color: #6F1E51;
-}
+  .colS6{
+    width: 50%;
+  }
 
-.section2{
-  width: 50%;
-  height: 50vh;
-  top: 276px;
-  left: 285px;
-}
+  .colS5{
+  width: 41.66%;
+  }
 
-.section3{
-  width: 30%;
-  height: 50vh;
-  top: 276px;
-  left: 998px;
-}
+  .colS4{
+  width: 33.33%;
+  }
 
-.footer{
-  width: 100%;
-  height: 50vh;
+  .colS3{
+  width: 25%;
+  }
+
+  .colS2{
+  width: 16.67%;
+  }
+
+  .colS1{
+  width: 8.33%;
+  }
+
 }
